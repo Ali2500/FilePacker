@@ -22,7 +22,7 @@ Small and simple API for packing an arbitrary directory tree into a 'filepack'. 
 First add the `file_packer` directory to your `$PYTHONPATH` variable:
 
 ```bash
-export PYTHONPATH=/path/to/FilePacker/file_packer:$PYTHONPATH
+export PYTHONPATH=/path/to/FilePacker:$PYTHONPATH
 ```
 
 **Create filepack:** Run the `main` script by pointing it to the directory you want to pack and an output path for where the filepack will be written
