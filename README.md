@@ -8,14 +8,14 @@ Small and simple API for packing an arbitrary directory tree into a 'filepack'. 
 
 ## Features
 
-:heavy_check_mark: Seamlessly pack arbitrary directory tree
-:heavy_check_mark: Concurrent processes can read from the same file pack safely
-:heavy_check_mark: Entire filepack is not in RAM
-:heavy_check_mark: Any file can be looked up in O(1) (important for deep learning training)
-:heavy_check_mark: Reader returns a file-like object that can be used by directly given to python libraries
+:heavy_check_mark: Seamlessly pack arbitrary directory tree  
+:heavy_check_mark: Concurrent processes can read from the same file pack safely  
+:heavy_check_mark: Entire filepack is not in RAM  
+:heavy_check_mark: Any file can be looked up in O(1) (important for deep learning training)  
+:heavy_check_mark: Reader returns a file-like object that can be used by directly given to python libraries  
 
-:x: Filepack is not editable. If you want to add/remove files you have to remake it from scratch
-:x: No file size compression 
+:x: Filepack is not editable. If you want to add/remove files you have to remake it from scratch  
+:x: No file size compression   
 
 ## Generate Filepack
 
