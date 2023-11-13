@@ -41,7 +41,7 @@ If you have a lot of files in your filepack and want a condensed console output,
 
 ## Read Filepack in code
 
-Only a couple of lines are code are needed to read a file from inside the filepack
+Only a couple of lines are code are needed to read a file in the filepack from python code
 
 ```python
 from file_packer import FilePackReader
